@@ -1,0 +1,12 @@
+.social-card-section{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.social-card-section h1{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+}

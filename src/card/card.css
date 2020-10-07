@@ -1,0 +1,153 @@
+.card {
+    width: 31%;
+    margin: 0 15px 25px;
+}
+
+.card .card-header {
+    display: block;
+    width: 100%;
+    padding: 80px 30px;
+    background: #ffa003;
+    color: #fff;
+    position: relative;
+    border: 1px solid #eee;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.card .card-header .content {
+    display: block;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.card .card-header .co-logo {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+}
+
+.card .card-header .co-logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.card .card-header .profile-card {
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    background: #fff;
+    padding: 3px;
+}
+
+.card .card-header .profile-card label {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffa003;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 0 0 6px;
+    cursor: pointer;
+}
+
+.card .card-header .profile-card span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin: 0 0 0 10px;
+}
+
+.card .card-header .profile-card span img {
+    display: block;
+    width: 100%;
+}
+
+.card .card-description {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.card .card-description strong {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.card .card-description p {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.card .card-description span {
+    display: block;
+    width: 100%;
+    color: #999;
+    font-size: 14px;
+}
+
+.card .card-option {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.card .card-option .comment,
+.card .card-option .like,
+.card .card-option .msg {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 0 0 24px;
+    background-position-y: 1px;
+    margin: 0 25px 0 0;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.card .card-option .comment {
+    background: url(../images/comment.png) no-repeat left center;
+    color: #666;
+}
+
+.card .card-option .like {
+    background: url(../images/like.png) no-repeat left center;
+    color: #e02760;
+    border: none;
+    outline: none;
+}
+
+.card .card-option .like:disabled{
+    cursor: default;
+}
+
+.card .card-option .msg {
+    background: url(../images/msg-icon.png) no-repeat left center;
+    color: #666;
+}

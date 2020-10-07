@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Anil Kumar",
+        "title": "Learning React? Start Small.",
+        "description": "Variations of this UI can be found all over the web – Twitter, Facebook, Pinterest, Airbnb, Redfin, and so on",
+        "website": "Reactjs.org",
+        "profilePicUrl": "https://infocomhouse.com/profile-images/anil.jpg",
+        "companyLogo": "https://picsum.photos/200",
+        "designation": "UI Developer"
+    },
+    {
+        "id": 2,
+        "name": "Ruchi Bisht",
+        "title": "Learning Js? Here is the Solution.",
+        "description": "Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP.",
+        "website": "javascript.info",
+        "profilePicUrl": "https://infocomhouse.com/profile-images/ruchi.jpg",
+        "companyLogo": "https://picsum.photos/200",
+        "designation": "UI Developer"
+    },
+    {
+        "id": 3,
+        "name": "Gaurav Vaid",
+        "title": "Learning Python? It is a backend language.",
+        "description": "Welcome! Are you completely new to programming? If not then we presume you will be looking for information",
+        "website": "python.org",
+        "profilePicUrl": "https://infocomhouse.com/profile-images/gaurav.jpg",
+        "companyLogo": "https://picsum.photos/200",
+        "designation": "Python Developer"
+    },
+    {
+        "id": 4,
+        "name": "Jai Prakash",
+        "title": "Learning CSS3? It is the designing tool for designers.",
+        "description": "It’s a pretty small feature compared to all the huge stuff Jetpack can do, like improve your site’s search, back it up, and protect it.",
+        "website": "css-tricks.com",
+        "profilePicUrl": "https://infocomhouse.com/profile-images/jp.jpg",
+        "companyLogo": "https://picsum.photos/200",
+        "designation": "Web Designer"
+    }
+]
