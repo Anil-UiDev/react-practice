@@ -8,18 +8,6 @@ import Data from '../data.json';
 
 class Card extends Component {
     render() {
-        let abc = Data;
-        abc.push({
-            "id": 5,
-            "name": "Monika",
-            "title": "Learning Backend? It is the development tool for designers.",
-            "description": "It’s a pretty small feature compared to all the huge stuff Jetpack can do, like improve your site’s search, back it up, and protect it.",
-            "website": "python.com",
-            "profilePicUrl": "https://infocomhouse.com/profile-images/jp.jpg",
-            "companyLogo": "https://picsum.photos/200",
-            "designation": "Python Developer"
-        });
-        // console.log(abc)
 
         return (
             <React.Fragment>
